@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function App() {
+function FCFS() {
   const [processes, setProcesses] = useState([]);
   const [newProcess, setNewProcess] = useState({
     id: "",
@@ -123,4 +123,4 @@ function App() {
   );
 }
 
-export default App;
+export default FCFS;
